@@ -1,0 +1,116 @@
+$primaryColor: #708cd5;
+.container {
+  display: flex;
+  img {
+    width: 400px;
+    height: 425px;
+  }
+  input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid #000;
+    width: 18rem;
+  }
+  input::placeholder {
+    color: $primaryColor;
+  }
+  input[type="date"] {
+    background: transparent;
+    color: $primaryColor;
+  }
+  input {
+    font-size: 20px;
+    margin-top: 39px;
+  }
+
+  .birthday-cls {
+    margin-bottom: 39px;
+    #birthday {
+      font-size: 20px;
+    }
+  }
+  button {
+    margin-top: 39px;
+    border-radius: 20px;
+    border: 1px solid $primaryColor;
+    color: $primaryColor;
+    background-color: #fff;
+    width: 18rem;
+    font-weight: bold;
+  }
+  button:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: #708cd5;
+  }
+  #gender {
+    font-size: 20px;
+    width: 18rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #708cd5;
+  }
+}
+// Message
+.Success {
+  margin-top: 39px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  animation-name: RGBcolor;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+
+  @keyframes RGBcolor {
+    0% {
+      background: #06d845;
+    }
+    25% {
+      background: #69d477;
+    }
+    50% {
+      background: #6b9956;
+    }
+    75% {
+      background: #107c1e;
+    }
+    100% {
+      background: #14df40;
+    }
+  }
+}
+.failed {
+  margin-top: 39px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  animation-name: RGBcolor1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+
+  @keyframes RGBcolor1 {
+    0% {
+      background: #c00909;
+    }
+    25% {
+      background: #d65252;
+    }
+    50% {
+      background: #dd323298;
+    }
+    75% {
+      background: #f10014;
+    }
+    100% {
+      background: #f35e5e;
+    }
+  }
+}

@@ -1,0 +1,163 @@
+.container {
+  display: flex;
+}
+.container img {
+  width: 400px;
+  height: 425px;
+}
+.container input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid #000;
+  width: 18rem;
+}
+.container input::-moz-placeholder {
+  color: #708cd5;
+}
+.container input:-ms-input-placeholder {
+  color: #708cd5;
+}
+.container input::placeholder {
+  color: #708cd5;
+}
+.container input[type=date] {
+  background: transparent;
+  color: #708cd5;
+}
+.container input {
+  font-size: 20px;
+  margin-top: 39px;
+}
+.container .birthday-cls {
+  margin-bottom: 39px;
+}
+.container .birthday-cls #birthday {
+  font-size: 20px;
+}
+.container button {
+  margin-top: 39px;
+  border-radius: 20px;
+  border: 1px solid #708cd5;
+  color: #708cd5;
+  background-color: #fff;
+  width: 18rem;
+  font-weight: bold;
+}
+.container button:hover {
+  color: black;
+  border: 1px solid black;
+  background-color: #708cd5;
+}
+.container #gender {
+  font-size: 20px;
+  width: 18rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #708cd5;
+}
+
+.Success {
+  margin-top: 39px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  -webkit-animation-name: RGBcolor;
+          animation-name: RGBcolor;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+@-webkit-keyframes RGBcolor {
+  0% {
+    background: #06d845;
+  }
+  25% {
+    background: #69d477;
+  }
+  50% {
+    background: #6b9956;
+  }
+  75% {
+    background: #107c1e;
+  }
+  100% {
+    background: #14df40;
+  }
+}
+@keyframes RGBcolor {
+  0% {
+    background: #06d845;
+  }
+  25% {
+    background: #69d477;
+  }
+  50% {
+    background: #6b9956;
+  }
+  75% {
+    background: #107c1e;
+  }
+  100% {
+    background: #14df40;
+  }
+}
+
+.failed {
+  margin-top: 39px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  -webkit-animation-name: RGBcolor1;
+          animation-name: RGBcolor1;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+@-webkit-keyframes RGBcolor1 {
+  0% {
+    background: #c00909;
+  }
+  25% {
+    background: #d65252;
+  }
+  50% {
+    background: rgba(221, 50, 50, 0.5960784314);
+  }
+  75% {
+    background: #f10014;
+  }
+  100% {
+    background: #f35e5e;
+  }
+}
+@keyframes RGBcolor1 {
+  0% {
+    background: #c00909;
+  }
+  25% {
+    background: #d65252;
+  }
+  50% {
+    background: rgba(221, 50, 50, 0.5960784314);
+  }
+  75% {
+    background: #f10014;
+  }
+  100% {
+    background: #f35e5e;
+  }
+}/*# sourceMappingURL=style.css.map */
